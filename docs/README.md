@@ -15,7 +15,7 @@
 
 ## 网络条件
 
-使用免费的 PeerJS 公共信令、公开 STUN 和 PeerJS 默认 TURN 配置。无法保证大陆各运营商或复杂 NAT 跨网可连。失败会显示明确提示和“重新连接”。不保证微信或 QQ 内置浏览器，建议 Safari / Chrome。
+使用免费的 PeerJS 公共信令、Cloudflare STUN 和经用户同意的 Open Relay（Metered）公开免费 TURN 中继。中继转发端到端加密的数据包，可看到 IP 等连接信息，无法读取手牌明文。其公开 static-auth 凭据由网页生成，服务可用性与免费政策取决于提供方。无法保证大陆各运营商或复杂 NAT 跨网可连。失败会显示明确提示和“重新连接”。不保证微信或 QQ 内置浏览器，建议 Safari / Chrome。
 
 ## 本机演练
 
